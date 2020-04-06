@@ -22,3 +22,10 @@ Syntax:
 /givecredits {credits}
 /removecredits{name} {credits}
 /setcredits {name} {credits}
+
+Commandrechte:
+credits:
+pay: 
+givecredits:
+removecredits:
+setcredits:
