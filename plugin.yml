@@ -1,0 +1,24 @@
+name: CreditSystem
+main: LegitDev\CreditSystem\Main
+version: 0.0.1
+api: 3.11.1
+load: POSTWORLD
+author: Legit-Development / Coder; LegitDev
+description: Dies ist ein Credit System
+commands:
+ credits:
+  description: "Damit kann man seine Credits sehen"
+  usage: "/credits"
+  permission: credits.cmd
+ pay:
+  description: "Damit kann man seine Credits senden"
+  usage: "/pay"
+  permission: pay.cmd 
+ givecredits:
+  description: "Gebe dir selbst Geld oder gebe anderen Geld ohne Kontostandänderung"
+  usage: "/givecredits"
+  permission: givecredits.cmd
+ removecredits:
+  description: "Entziehe dir selbst Geld oder gebe anderen Geld ohne Kontostandänderung"
+  usage: "/removecredits"
+  permission: removecredits.cmd  
