@@ -15,10 +15,14 @@ commands:
   usage: "/pay"
   permission: pay.cmd 
  givecredits:
-  description: "Gebe dir selbst Geld oder gebe anderen Geld ohne Kontostandänderung"
+  description: "Gebe dir selbst Credits"
   usage: "/givecredits"
   permission: givecredits.cmd
  removecredits:
-  description: "Entziehe dir selbst Geld oder gebe anderen Geld ohne Kontostandänderung"
+  description: "Entziehe dir selbst oder anderen Credits"
   usage: "/removecredits"
   permission: removecredits.cmd  
+ setcredits:
+  description: "Setzte den Kontostand vom Spieler"
+  usage: "/setcredits"
+  permission: setcredits.cmd    
