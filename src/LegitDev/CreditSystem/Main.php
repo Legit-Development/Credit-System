@@ -19,7 +19,7 @@ use pocketmine\event\entity\EntityLevelChangeEvent;
 
 class Main extends PluginBase implements Listener{
 
-    public $prefix = "§7{§bCredit-System§7} §7> §7";
+    public $prefix = "§7[§bCredit-System§7] §7» §7";
 
     public function onEnable(): void
     {
