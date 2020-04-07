@@ -24,8 +24,8 @@ Syntax:
 /setcredits {name} {credits}
 
 Commandrechte:
-credits:
-pay: 
-givecredits:
-removecredits:
-setcredits:
+credits: credits.cmd
+pay: pay.cmd 
+givecredits: givecredits.cmd
+removecredits: removecredits.cmd
+setcredits: setcredits.cmd
